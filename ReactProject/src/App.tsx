@@ -8,7 +8,10 @@ import { Button } from "react-bootstrap";
 function App() {
   return (
     <>
-      <Header /> <Button> Click for bears </Button>
+      <Header />
+      <Button type="button" className="btn btn-info">
+        Click for bears
+      </Button>
     </>
   );
 }
