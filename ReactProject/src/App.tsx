@@ -4,6 +4,7 @@ import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import { useState } from "react";
 import { Button } from "react-bootstrap";
+import BearCard from "./Components/BearCard/BearCard";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Button type="button" className="btn btn-info">
         Click for bears
       </Button>
+      <BearCard name="Leonard" image="src/assets/bear.png" desc=":3" />
+      <BearCard name="Leonard" image="src/assets/bear.png" desc="evil" />
     </>
   );
 }
