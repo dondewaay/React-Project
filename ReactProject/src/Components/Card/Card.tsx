@@ -1,3 +1,4 @@
+import "./Card.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
@@ -5,16 +6,17 @@ interface props {
   name: string;
   image: string;
   desc: string;
+  butt: string;
 }
 
-const BearCard = ({ name, image, desc }: props) => {
+const BearCard = ({ name, image, desc, butt }: props) => {
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card >
       <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>{desc}</Card.Text>
-        <Button variant="primary">Bear Info</Button>
+        <Button variant="primary">{butt}</Button>
       </Card.Body>
     </Card>
   );
