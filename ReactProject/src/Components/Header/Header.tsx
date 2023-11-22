@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <Navbar className="custom-navbar">
       <Container>
-        <Navbar.Brand href="/">BEAR WEBSITE!</Navbar.Brand>
+        <Navbar.Brand href="/">Don's Bear Emporium</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

@@ -1,3 +1,8 @@
+body {
+  background-color: black;
+  color: white;
+}
+
 html {
   height: 100%
 }
@@ -23,4 +28,22 @@ html {
 
 .rosarivoItalic {
     font-family: rosarivoItalic;
+}
+
+@font-face {
+  font-family: dmReg;
+  src: url(./assets/fonts/DMSerifDisplay-Regular.ttf);
+}
+
+.dmReg {
+  font-family: dmReg;
+}
+
+@font-face {
+  font-family: dmItalic;
+  src: url(./assets/fonts/DMSerifDisplay-Italic.ttf);
+}
+
+.dmItalic {
+  font-family: dmItalic;
 }
