@@ -1,9 +1,13 @@
-import "./Footer.css"
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <footer className="footer">
+    <div className="container">
+      <p><i>&copy; Donald DeWaay</i></p>
+    </div>
+  </footer>
+  );
+};
 
-export default Footer
+export default Footer;
