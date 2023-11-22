@@ -4,3 +4,8 @@
   margin: 10px;
   width: 16rem;
 }
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}

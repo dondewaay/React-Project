@@ -8,18 +8,21 @@ function App() {
   return (
     <>
       <Header />
-      <Card
-        name="Leonard"
-        image="src/assets/bear.png"
-        desc=":3"
-        butt="Bear Info"
-      />
-      <Card
-        name="Joshua"
-        image="src/assets/josh.gif"
-        desc="orb"
-        butt="Rotate"
-      />
+      <div className="card-container">
+        <Card
+          name="Leonard"
+          image="src/assets/bear.png"
+          desc=":3"
+          butt="Bear Info"
+        />
+        <Card
+          name="Joshua"
+          image="src/assets/josh.gif"
+          desc="orb"
+          butt="Rotate"
+        />
+      </div>
+      <Button onClick={() => console.log("Clicked!")}>ButtonTest</Button>
     </>
   );
 }
