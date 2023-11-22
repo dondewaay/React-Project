@@ -1,5 +1,5 @@
 import Card from "../Components/Card/Card";
-import "./Catalog.css"
+import "./Catalog.css";
 
 const Catalog = () => {
   return (
@@ -19,7 +19,7 @@ const Catalog = () => {
         />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Catalog
+export default Catalog;

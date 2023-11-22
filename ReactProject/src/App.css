@@ -1,0 +1,26 @@
+html {
+  height: 100%
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@font-face {
+    font-family: rosarivo;
+    src: url(./assets/fonts/Rosarivo-Regular.ttf);
+}
+
+.rosarivo {
+    font-family: rosarivo;
+}
+
+@font-face {
+    font-family: rosarivoItalic;
+    src: url(./assets/fonts/Rosarivo-Italic.ttf);
+}
+
+.rosarivoItalic {
+    font-family: rosarivoItalic;
+}

@@ -2,7 +2,7 @@ import "./Jumbotron.css";
 
 const Jumbotron = () => {
   return (
-    <div className="jumbotron jumbotron-fluid">
+    <div className="jumbotron jumbotron-fluid rosarivo">
       <div className="container">
         <h1 className="display-4">
           <b> WELCOME TO DON'S BEAR EMPORIUM! </b>
