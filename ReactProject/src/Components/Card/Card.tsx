@@ -1,6 +1,7 @@
 import "./Card.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { useState } from "react";
 
 interface props {
   name: string;
@@ -9,14 +10,14 @@ interface props {
   butt: string;
 }
 
-const BearCard = ({ name, image, desc, butt }: props) => {
+const BearCard = ({ name, image, desc, butt}: props) => {
   return (
     <Card >
       <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>{desc}</Card.Text>
-        <Button variant="primary">{butt}</Button>
+        <Button onClick={() => console.log("Clicked!")} variant="primary"> {butt} </Button>
       </Card.Body>
     </Card>
   );

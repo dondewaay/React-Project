@@ -1,11 +1,11 @@
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
   
     color-scheme: dark;
     color: #30142c;
-    background-color: #242424;
+    background-color: #fff5d7;
   
     font-synthesis: none;
     text-rendering: optimizeLegibility;
