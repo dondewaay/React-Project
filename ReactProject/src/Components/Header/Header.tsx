@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Header = () => {
   return (
-    <Navbar className="navbar navbar-dark custom-navbar">
+    <Navbar className="custom-navbar">
       <Container>
         <Navbar.Brand href="/">BEAR WEBSITE!</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

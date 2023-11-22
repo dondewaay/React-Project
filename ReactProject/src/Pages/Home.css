@@ -1,0 +1,13 @@
+body {
+    color: black;
+    background-color: black;
+  }
+  
+  html {
+    height: 100%
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+  }

@@ -1,4 +1,5 @@
 import Card from "../Components/Card/Card";
+import "./Catalog.css"
 
 const Catalog = () => {
   return (
