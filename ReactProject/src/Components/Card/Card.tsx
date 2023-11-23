@@ -10,16 +10,20 @@ interface props {
   butt: string;
 }
 
-const BearCard = ({ name, image, desc, butt}: props) => {
+const BearCard = ({ name, image, desc, butt }: props) => {
   return (
-    <Card >
-      <Card.Img variant="top" src={image} />
-      <Card.Body>
-        <Card.Title>{name}</Card.Title>
-        <Card.Text>{desc}</Card.Text>
-        <Button onClick={() => console.log("Clicked!")} variant="primary"> {butt} </Button>
-      </Card.Body>
-    </Card>
+    <div className="shadow-lg p-3 mb-5">
+      <Card>
+        <Card.Img variant="top" src={image} />
+        <Card.Body>
+          <Card.Title>{name}</Card.Title>
+          <Card.Text>{desc}</Card.Text>
+          <Button onClick={() => console.log("Clicked!")} variant="primary">
+            {butt}
+          </Button>
+        </Card.Body>
+      </Card>
+    </div>
   );
 };
 

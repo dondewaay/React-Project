@@ -13,24 +13,6 @@ html {
 }
 
 @font-face {
-    font-family: rosarivo;
-    src: url(./assets/fonts/Rosarivo-Regular.ttf);
-}
-
-.rosarivo {
-    font-family: rosarivo;
-}
-
-@font-face {
-    font-family: rosarivoItalic;
-    src: url(./assets/fonts/Rosarivo-Italic.ttf);
-}
-
-.rosarivoItalic {
-    font-family: rosarivoItalic;
-}
-
-@font-face {
   font-family: dmReg;
   src: url(./assets/fonts/DMSerifDisplay-Regular.ttf);
 }
