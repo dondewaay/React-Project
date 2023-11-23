@@ -21,7 +21,7 @@ const Carousel = () => {
           />
         </div>
         <div className="carousel-caption d-none d-md-block">
-          <h1>WELCOME TO DON'S BEAR EMPORIUM!</h1>
+          <h1>WELCOME TO DON'S BEAR EMPORIUM</h1>
           <h2><i>Home of Dope Bears</i></h2>
         </div>
       </div>
