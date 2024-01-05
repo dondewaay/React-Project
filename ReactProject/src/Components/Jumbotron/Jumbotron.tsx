@@ -4,10 +4,9 @@ const Jumbotron = () => {
   return (
     <div className="jumbotron jumbotron-fluid dmItalic">
       <div className="container">
-        <h1 className="display-4">
-          <b> WELCOME TO DON'S BEAR EMPORIUM! </b>
-        </h1>
-        <p className="lead"><i>Home of Dope Bears</i></p>
+        <h1 className="display-4"></h1>
+        <p className="lead">
+        </p>
       </div>
     </div>
   );

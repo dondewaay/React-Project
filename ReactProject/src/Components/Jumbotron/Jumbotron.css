@@ -1,4 +1,6 @@
 .jumbotron {
     background-color: #fff5d7;
     font-family: dmItalic;
+    height: 200px;
+    width: 50%;
 }
